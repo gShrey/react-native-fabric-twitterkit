@@ -93,7 +93,9 @@ RCT_EXPORT_METHOD(composeTweet:(NSDictionary *)options :(RCTResponseSenderBlock)
         [composer setText:body];
     }
     
-    UIViewController *rootView = [UIApplication sharedApplication].keyWindow.rootViewController;
+    UIViewController *rootView = [UIApplication sharedApplication].delegate.window.rootViewController;
+    rootView = [rootView topMostController];
+
     [composer showFromViewController:rootView completion:^(TWTRComposerResult result) {
         
         bool completed = NO, cancelled = NO, error = NO;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A6AEE61D87FBBC00837ECE /* UIViewController+TopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6AEE51D87FBBC00837ECE /* UIViewController+TopMostController.m */; };
 		9503D6191D4FB6280080E3FF /* FabricTwitterKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9503D6181D4FB6280080E3FF /* FabricTwitterKit.h */; };
 		9503D61B1D4FB6280080E3FF /* FabricTwitterKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9503D61A1D4FB6280080E3FF /* FabricTwitterKit.m */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35A6AEE41D87FBBC00837ECE /* UIViewController+TopMostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopMostController.h"; sourceTree = "<group>"; };
+		35A6AEE51D87FBBC00837ECE /* UIViewController+TopMostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopMostController.m"; sourceTree = "<group>"; };
 		9503D6151D4FB6280080E3FF /* libFabricTwitterKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFabricTwitterKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9503D6181D4FB6280080E3FF /* FabricTwitterKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FabricTwitterKit.h; sourceTree = "<group>"; };
 		9503D61A1D4FB6280080E3FF /* FabricTwitterKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FabricTwitterKit.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			children = (
 				9503D6181D4FB6280080E3FF /* FabricTwitterKit.h */,
 				9503D61A1D4FB6280080E3FF /* FabricTwitterKit.m */,
+				35A6AEE41D87FBBC00837ECE /* UIViewController+TopMostController.h */,
+				35A6AEE51D87FBBC00837ECE /* UIViewController+TopMostController.m */,
 			);
 			path = FabricTwitterKit;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9503D61B1D4FB6280080E3FF /* FabricTwitterKit.m in Sources */,
+				35A6AEE61D87FBBC00837ECE /* UIViewController+TopMostController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
