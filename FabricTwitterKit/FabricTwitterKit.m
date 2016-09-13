@@ -12,6 +12,7 @@
 #import "RCTBridge.h"
 //#import <Crashlytics/Crashlytics.h>
 #import <TwitterKit/TwitterKit.h>
+#import "UIViewController+TopMostController.h"
 
 @implementation FabricTwitterKit
 @synthesize bridge = _bridge;
